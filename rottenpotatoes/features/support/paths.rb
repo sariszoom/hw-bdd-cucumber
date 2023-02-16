@@ -16,6 +16,7 @@ module NavigationHelpers
     when /^the (RottenPotatoes )?home\s?page$/ then '/movies'
     when /^the movies page$/ then '/movies'
     when /^the Create New Movie page$/ then '/movies/new'
+    when /^the "Search Results" page$/ then '/movies'
 
 
     # Add more mappings here.
